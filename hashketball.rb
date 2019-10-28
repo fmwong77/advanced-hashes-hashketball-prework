@@ -275,7 +275,11 @@ hash = {}
   return hash.max_by{|k,v| v}[0]
 end
 
+<<<<<<< HEAD
 def long_name_steals_a_ton?
+=======
+def long_name_steals_a_ton()
+>>>>>>> d0c67a10e9fe3036adb75da8e1ca413c88e9377a
   most_steals = most_steals()
   player_with_longest_name = player_with_longest_name()
 
